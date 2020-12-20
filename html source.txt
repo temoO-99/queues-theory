@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/project.css"/>
+    <link rel="stylesheet" href="css/all.min.css"/>
+    
+
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class="section">
+<canvas></canvas>
+<div class="over"></div>
+        <div class="container">
+            <div class="app">
+
+                <!-- <input id="in" type="text" placeholder="enter a" name="custom">
+                <input id="inn" type="text" placeholder="enter b" name="custom">
+                <input id="innn" type="text" placeholder="enter c" name="custom">
+<!-- 
+                <input id="in" placeholder="Enter Lamda" type="text" name="lam">
+                <input id="inn" placeholder="Enter Mue" type="text" name="mue" >
+                <p id="out"></p>  -->
+
+
+                
+                <label> <i class="fas fa-exclamation-triangle"></i> Please! Enter Number.</label>
+                <select id="select" name="selection">
+                    <option hidden selected>Choose Your System</option>
+                    <option value="D/D/1">D/D/1</option>
+                    <option value="D/D/1/K-1">D/D/1/K-1</option>
+                    <option value="M/M/1">M/M/1</option>
+                    <option value="M/M/1/K">M/M/1/K</option>
+                    <option value="M/M/C">M/M/C</option>
+                    <option value="M/M/C/K">M/M/C/K</option>
+                </select>
+                <!-- <a href="project.html"><input type="button" value="Reset"></a> -->
+                <input id="lam" type="text" placeholder="enter interval time">
+                <input id="mue" type="text" placeholder="enter service time">
+                <input id="T" type="text" placeholder="enter time">
+                <input id="K" type="text" placeholder="enter K">
+                <input id="N" type="text" placeholder="enter number of customer">
+                <input id="P" type="text" placeholder="enter n or empty value(e)">
+                <input id="Pr" type="text" placeholder="enter value of persent">
+                <input id="C" type="text" placeholder="enter number Of Server">
+                <textarea class="hat"></textarea>
+
+
+
+                <button>Calc</button>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/project.js"></script>
+    <script src="js/MM1.js"></script>
+    <script src="js/MM1K.js"></script>
+    <script src="js/MMC.js"></script>
+    <script src="js/MMCK.js"></script>
+    <!-- <script src="js/DD1.js"></script> -->
+
+    <script src="js/exeption.js"></script>
+
+
+
+
+</body>
+</html>

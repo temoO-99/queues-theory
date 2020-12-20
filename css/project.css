@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 3000px;
+}
+
+.section {
+  background: url("../img/headeer.jpeg") no-repeat;
+  background-size: cover;
+  text-align: center;
+  max-height: 1000px;
+  position: relative;
+  overflow: hidden;
+}
+
+.section .over {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+canvas {
+  position: absolute;
+  left: 0;
+}
+
+.section .container {
+  width: 800px;
+  margin: 0 auto;
+  z-index: 2;
+  position: relative;
+}
+
+.section .container .app {
+  background-color: #ddd;
+  border-radius: 20px;
+  padding: 50px;
+  position: absolute;
+  width: 400px;
+  max-width: 500px;
+  left: 200px;
+  height: 540px;
+  max-height: 553px;
+  bottom: 6px;
+  top: 6px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.section .container .app select:hover {
+  transition: all 0.6s ease-in-out;
+  box-shadow: 6px 6px 6px;
+  cursor: pointer;
+}
+
+.section .container .app input {
+  display: block;
+  margin: 10px 50px;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 5px;
+  border: 1px solid #ddd;
+}
+.section .container .app input:focus {
+  transition: all 0.6s ease-in-out;
+  box-shadow: 6px 6px 8px;
+  border: none;
+}
+.section .container .app button {
+  display: block;
+  margin: 10px 102px 20px 102px;
+  width: 100px;
+  cursor: pointer;
+  background-color: darkcyan;
+  /* border: none; */
+  border-radius: 5px;
+  padding: 7px 5px;
+  color: #ddd;
+}
+
+.section .container .app button:focus {
+  outline: none;
+}
+
+/* .section .container form div {
+  background-color: aliceblue;
+  width: 100px;
+  margin-bottom: 30px;
+  height: 20px;
+} */
+
+select {
+  padding: 7px 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+select:focus {
+  outline: none;
+}
+
+.select-selected {
+  background-color: DodgerBlue;
+}
+
+textarea {
+  width: 100%;
+  max-width: 100%;
+  min-height: 200px;
+  max-height: 200px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+#N {
+  display: none;
+  margin-top: 0;
+}
+
+#P {
+  display: none;
+  margin-top: 0;
+}
+
+#Pr {
+  display: none;
+  margin-top: 0;
+}
+
+#C {
+  display: none;
+  margin-top: 0;
+}
+
+#T {
+  display: none;
+  margin-top: 0;
+}
+
+label {
+  top: 10px;
+  left: 32%;
+  color: red;
+  position: absolute;
+  display: none;
+  text-shadow: 2px 5px 6px black;
+}
+
+a input {
+  position: absolute;
+  top: 10px;
+  left: -35px;
+  border-radius: 50%;
+  height: 47px;
+  width: 47px;
+  background-color: cadetblue;
+  color: floralwhite;
+}
+
+a input:hover {
+  cursor: pointer;
+  box-shadow: 6px 6px 8px black;
+  border-radius: 50%;
+}
